@@ -4,7 +4,7 @@
  * @dest: string
  * @src: string to add
  *
- * Return: The resulting string
+ * Return: the resulting string
  */
 char *_strcat(char *dest, char *src);
 {
@@ -27,5 +27,4 @@ char *_strcat(char *dest, char *src);
 	dest[i] = '\0';
 
 	return (dest);
-
 }
